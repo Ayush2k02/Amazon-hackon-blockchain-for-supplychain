@@ -1,0 +1,13 @@
+1> Setting up buissness network
+
+Start the creation process for business network using Yeoman Generator. Run this command on a terminal.
+
+yo hyperledger-composer:businessnetwork
+
+Provide the network name as supplychain-network and add the information for description, author name, and author email.
+This will also ask for license, provide Apache-2.0 as the license. This is an open-source license.
+After that  add the namespace . Here we are using org.supplychain.network as the namespace.
+Finally, select No when asked whether to generate an empty network or not.
+After this , skeleton network will be generated
+
+2> Define the modeling language
